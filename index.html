@@ -61,7 +61,7 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Ongoing Projects</heading>
               <p>
-              	Here is a few projects that I am currently working on, with some of them avaliable in preprints.
+              	Here is a few projects that I am currently working on, with some of them available in preprints.
               </p>
             </td>
           </tr>
@@ -154,12 +154,12 @@
               <p>By learning the distribution of optimal samples given a local map, sampling-based exploration planning can be done efficiently.</p>
             </td>
 
- 		<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+ 		    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Past Projects</heading>
               <p>
-              	Here is a list of my past projects, including course projects.
+              	Here is a list of my past projects, including course projects and unpublished work.
               </p>
             </td>
           </tr>
@@ -272,7 +272,50 @@
               <p>We extract effective representation from the multi-sensory robotics data by self-supervised synchronization and 
                 use the latent representation for downstream RL tasks.<p>
             </td>
-						
+
+            <tr onmouseout="gora_stop()" onmouseover="gora_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='gora_image'><img src='images/gora.png' width="160"></div>
+                  <img src='images/gora.png' width="160">
+                </div>
+                <script type="text/javascript">
+                  function gora_start() {
+                    document.getElementById('gora_image').style.opacity = "1";
+                  }
+  
+                  function gora_stop() {
+                    document.getElementById('gora_image').style.opacity = "0";
+                  }
+                  gora_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="">
+                <papertitle>GORA-Net: a Temporal Reparameterization Method for Recognizing Actions in Video Sequences</papertitle>
+                </a>
+                <br>
+                <strong>Chao Ni</strong>
+                <br>
+                <em>unpublished research (Johns Hopkins University, advisor: Gregory Chirikjian)</em>
+                <br>
+                <a href="data/jhu18-chao.pdf">report</a>
+                <p></p>
+                <p>We quotient out the temporal fluctuations of the video and insert a preprocessing frame selection layer in 
+                  the action recognition learning framework.<p>
+              </td>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+                <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <heading>Personal Collections</heading>
+                  <p>
+                    Here is a list of my personal literature reviews and pointers to some of my passions.
+                    <p> A literature review on Robot Learning: <a href="data/rl19-chao.pdf">robot learning</a></p> 
+                </td>
+              </tr>
+            </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>					
        <!--   
 
 
