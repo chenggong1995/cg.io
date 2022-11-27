@@ -20,7 +20,7 @@
               <p style="text-align:center">
                 <name>Chao Ni</name>
               </p>
-              <p>I am a student reaseacher at <a href="https://rpg.ifi.uzh.ch/">Robotics and Perception Group</a> supervised by <a href="https://rpg.ifi.uzh.ch/people_scaramuzza.html">Davide Scaramuzza</a>. 
+              <p>I am a student reaseacher at <a href="https://rpg.ifi.uzh.ch/">Robotics and Perception Group</a> working with <a href="https://rpg.ifi.uzh.ch/people_scaramuzza.html">Davide Scaramuzza</a>. 
                 I am interested in research area bridging perception, learning and control for robotics.  </p>
               <p>
               	I finished my master thesis at <a href="https://rsl.ethz.ch/"> Robotics System Lab</a> at <a href="https://ethz.ch/en.html">ETH Zurich</a> 
@@ -51,8 +51,9 @@
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>News</heading>
+              <p> [2022.11] Our paper <em> Autonomous Navigation with a Monocular Event Camera </em> is submitted!</p>
               <p>
-	      [2022.06] Our paper on <em>Learning Exploration </em> is accepted for <em>Robotics and Automation Letters (RA-L) </em> and will be presented at <em> IROS 2022 </em> in Kyoto!
+	              [2022.06] Our paper on <em>Learning Exploration </em> is accepted for <em>Robotics and Automation Letters (RA-L) </em> and will be presented at <em> IROS 2022 </em> in Kyoto!
               </p> 
               <p>
                 [2022.06] I have joined Robotics and Perception Group at University of Zurich and ETH Zurich!
@@ -74,6 +75,43 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="event_mono_stop()" onmouseover="event_mono_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='event_mono'><img src='images/event_mono.png' width="160"></div>
+                <img src='images/event_mono.png' width="160">
+              <script type="text/javascript">
+                function event_mono_start() {
+                  document.getElementById('event_mono').style.opacity = "1";
+                }
+
+                function event_mono_stop() {
+                  document.getElementById('event_mono').style.opacity = "0";
+                }
+                event_mono_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>Autonomous Navigation with a Monocular Event Camera</papertitle>
+              </a>
+              <br>
+              <strong>Chao Ni</strong>,
+							<a href="https://matthias.pw/">Matthias Müller</a>,
+							<a href="https://rpg.ifi.uzh.ch/people_scaramuzza.html">Davide Scaramuzza</a>
+              <br>
+              <em> </em> under review
+              <br>
+              <!-- <a href="https://youtu.be/zRdr7dWsLr4">video</a>
+              /
+              <a href="data/perceptive_mpcnet.pdf">arXiv</a>
+              / -->
+              <!-- <a href="http://hdl.handle.net/20.500.11850/534876">Master Thesis</a> -->
+              <p></p>
+              <p>Learning to navigate in the forest using only a monocular event camera.</p>
+            </td>
+          </tr> 
 
           <tr onmouseout="anymal_imitate_stop()" onmouseover="anymal_imitate_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
